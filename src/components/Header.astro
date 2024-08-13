@@ -1,0 +1,33 @@
+---
+    import Mail from "../icons/Mail.astro"
+    import Phone from "../icons/Phone.astro"
+    import Arrow from "../icons/Arrow.astro"
+    import Menu from "../icons/Menu.astro"
+---
+
+<div class="shadow-2xl shadow-blue-400">
+        <div class="w-full  md:flex h-12 items-center bg-[#3b82f6] hidden justify-evenly">
+            <h1 class="t text-white font-black text-sm md:text-xl">Want to connect with us?</h1>
+            <div class="flex">
+                <div class="flex justify-center mx-4 items-center">
+                    <Mail></Mail>
+                    <h3 class="text-white mx-2 text-xs md:text-xs">Mail us: support@inzurezella.com</h3>
+                </div>
+                <div class="flex justify-center items-center">
+                    <Phone />
+                    <h3 class="text-white text-xs md:text-xs mx-2">Call us: (877) 227 0774</h3>
+                </div>
+            </div>
+        </div>
+        <div class="flex md:flex-row justify-between items-center  px-4 md:px-32 py-5">
+            <img src="/logo.png" width="65" class="rounded hidden md:flex" alt="">
+            <div class="md:hidden"><Menu/></div>
+            <div class="hidden md:flex">
+                <a class="md:mx-3 mx-1 text-sm md:text-base  " href="">Home</a>
+                <a class="md:mx-3 mx-1 text-sm md:text-base "  href="">Insurance</a>
+                <a class="md:mx-3 mx-1 text-sm md:text-base  "  href="">Learn</a>
+                <a class="md:mx-3 mx-1 text-sm md:text-base  "  href="">About</a>
+            </div>
+            <button class="b bg-blue-700 flex items-center justify-center rounded-full px-2 md:px-4 py-1 md:py-2"><h2 class="t mx-2 text-white text-sm md:text-lg font-black">Call Us Now</h2> <Arrow/> </button>
+        </div>
+</div>

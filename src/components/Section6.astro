@@ -1,0 +1,55 @@
+---
+    import Facebook from "../icons/Facebook.astro"
+    import In from "../icons/In.astro"
+    import Insta from "../icons/Insta.astro"
+    import Twitter from "../icons/Twitter.astro"
+    import MailBlack from "../icons/MailBlack.astro"
+    import PhoneBlack from "../icons/PhoneBlack.astro"
+    import Building from "../icons/Building.astro"
+    import Clock from "../icons/Clock.astro"
+---
+
+<div class="p-6 mt-24 md:mt-0  flex justify-center items-center md:w-full  pb-0">
+    <div class="flex flex-col w-[500px] md:w-full md:flex-row mx-4 justify-between bg-white shadow-2xl shadow-blue-700 p-5">
+        <!-- Logo and social media section -->
+        <div class="flex flex-col items-center justify-center text-center w-full md:w-[300px] gap-4 md:gap-3 mb-8 md:mb-0">
+            <img src="/logo.png" width="65" class="rounded" alt="">
+            <p class="opacity-70">Discover the peace of mind you deserve with Insurezella, your reliable insurance umbrella</p>
+            <div class="flex gap-2 justify-center">
+                <Facebook/>
+                <Twitter/>
+                <Insta/>
+                <In/>
+            </div>
+        </div>
+
+        <!-- Services section -->
+        <div class="flex mx-4  flex-col items-center md:items-start text-center md:text-left justify-center gap-4 md:gap-2 mb-8 md:mb-0">
+            <h1 class="text-2xl font-bold">Services</h1>
+            <div><h5>Health Insurance</h5></div>
+            <div><h5>Life Insurance</h5></div>
+            <div><h5>Medicare Supplement</h5></div>
+            <div><h5>Medicare Advantages</h5></div>
+            <div><h5>(ACA)Obamacare</h5></div>
+        </div>
+
+        <!-- Company section -->
+        <div class="flex  mx-4  flex-col items-center md:items-start text-center md:text-left justify-center gap-4 md:gap-2 mb-8 md:mb-0">
+            <h1 class="text-2xl font-bold">Company</h1>
+            <h5>About Us</h5>
+            <h5>Careers</h5>
+            <h5>Industry News</h5>
+            <h5>Privacy Policy</h5>
+            <h5>Terms & Conditions</h5>
+        </div>
+
+        <!-- Get In Touch section -->
+        <div class="flex mx-4  flex-col items-center md:items-start text-center md:text-left justify-evenly gap-4 md:gap-2">
+            <h1 class="text-2xl font-bold">Get In Touch</h1>
+            <div class="flex items-center gap-2"><MailBlack/><h5>support@insurezella.com</h5></div>
+            <div class="flex items-center gap-2"><PhoneBlack/><h5>+111111111111</h5></div>
+            <div class="flex items-center gap-2"><Clock/><h5>Mon-Fri 9:00AM-5:00PM</h5></div>
+            <div class="flex items-center gap-2"><Building/><h5>300 SE 2nd street suite 600</h5></div>
+        </div>
+    </div>
+</div>
